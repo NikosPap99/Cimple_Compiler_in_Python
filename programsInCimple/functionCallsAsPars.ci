@@ -1,0 +1,18 @@
+# NIKOLAOS PAPADOPOULOS 4140 #
+# USERNAME: cse74140 #
+# ACADEMIC EMAIL: cs04140@uoi.gr #
+
+program max
+
+    function max(in x, in y) {
+        if(x>y)
+            return(x);
+        else
+            return(y);
+    }
+    
+# MAIN #
+# Testing passing function calls as parameters, to check if the pars are given to each function call from above #
+{
+    e := max(in max(in a, in max(in e, in f)), in max(in c, in d));
+}.

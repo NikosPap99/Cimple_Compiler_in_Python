@@ -1,0 +1,38 @@
+# NIKOLAOS PAPADOPOULOS 4140 #
+# USERNAME: cse74140 #
+# ACADEMIC EMAIL: cs04140@uoi.gr #
+
+program retValues
+
+declare firstInput, secondInput;
+
+function func1(inout a, inout b) 
+    
+
+    function func2(in c, in d)
+        procedure foo()
+        
+        {
+            firstInput = firstInput * secondInput;
+            print(firstInput);
+        }
+
+    {
+        return(c * d);
+    }
+
+    {
+        a := func2(in b, in a) / 2;
+        b := func2(in a*255, in (a + b));
+        return(a);
+    }
+
+# main #
+{
+    input(firstInput);
+    input(secondInput);
+
+    if(not [func1(inout firstInput, inout secondInput) <> 20]) {
+        print(-1);
+    }
+}.
